@@ -1,6 +1,7 @@
 ﻿Imports MoochiesEnity
 Imports System.Data.SqlClient
 Public Class Conexao
+    Dim str As String = "Data Source=DESKTOP-JJ5EPPL;Initial Catalog=Teste;Integrated Security=True"
     Public Function InsertProducts(products As Products)
         Try
             Dim query As String = "INSERT INTO [dbo].[Products]
@@ -13,7 +14,7 @@ Public Class Conexao
                                           ,@Price
                                           ,@Status 
                                           ,@DateReg)"
-            Using con As SqlConnection = New SqlConnection("Data Source=DESKTOP-JJ5EPPL;Initial Catalog=Teste;Integrated Security=True")
+            Using con As SqlConnection = New SqlConnection(str)
                 Using cmd As SqlCommand = New SqlCommand(query, con)
                     cmd.Parameters.AddWithValue("@ProdName", products.ProdName)
                     cmd.Parameters.AddWithValue("@Price", products.Price)
@@ -32,7 +33,7 @@ Public Class Conexao
         Try
             Dim query As String = "DELETE FROM [dbo].[Products]
                                     WHERE ProdId = @ProdId"
-            Using con As SqlConnection = New SqlConnection("Data Source=DESKTOP-JJ5EPPL;Initial Catalog=Teste;Integrated Security=True")
+            Using con As SqlConnection = New SqlConnection(str)
                 Using cmd As SqlCommand = New SqlCommand(query, con)
                     cmd.Parameters.AddWithValue("@ProdId", products.ProdId)
                     con.Open()
@@ -52,7 +53,7 @@ Public Class Conexao
                                         ,[Status] = @Status 
                                         ,[DateReg] = @DateReg
                                    WHERE ProdId = @ProdId"
-            Using con As SqlConnection = New SqlConnection("Data Source=DESKTOP-JJ5EPPL;Initial Catalog=Teste;Integrated Security=True")
+            Using con As SqlConnection = New SqlConnection(str)
                 Using cmd As SqlCommand = New SqlCommand(query, con)
                     cmd.Parameters.AddWithValue("@ProdId", products.ProdId)
                     cmd.Parameters.AddWithValue("@ProdName", products.ProdName)
@@ -77,7 +78,7 @@ Public Class Conexao
                                        ,[DateReg]
                                    FROM [dbo].[Products] p
                                    Join StatusProd sp on p.Status = sp.StatusId "
-            Using con As SqlConnection = New SqlConnection("Data Source=DESKTOP-JJ5EPPL;Initial Catalog=Teste;Integrated Security=True")
+            Using con As SqlConnection = New SqlConnection(str)
                 Using cmd As SqlCommand = New SqlCommand(query, con)
                     Using da As New SqlDataAdapter()
                         da.SelectCommand = cmd
@@ -101,7 +102,7 @@ Public Class Conexao
                                        ,[DateReg]
                                    FROM [dbo].[Products] 
                                    Where  ProdId = @ProdId"
-            Using con As SqlConnection = New SqlConnection("Data Source=DESKTOP-JJ5EPPL;Initial Catalog=Teste;Integrated Security=True")
+            Using con As SqlConnection = New SqlConnection(str)
                 Using cmd As SqlCommand = New SqlCommand(query, con)
                     cmd.Parameters.AddWithValue("@ProdId", products.ProdId)
                     Using da As New SqlDataAdapter()
