@@ -1,0 +1,14 @@
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\bin\Debug\MoochiesDataObjects.dll
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\bin\Debug\MoochiesDataObjects.pdb
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\bin\Debug\MoochiesDataObjects.xml
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\obj\Debug\MoochiesDataObjects.vbproj.AssemblyReference.cache
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\obj\Debug\MoochiesDataObjects.Resources.resources
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\obj\Debug\MoochiesDataObjects.vbproj.GenerateResource.cache
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\obj\Debug\MoochiesDataObjects.vbproj.CoreCompileInputs.cache
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\obj\Debug\MoochiesDataObjects.dll
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\obj\Debug\MoochiesDataObjects.xml
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\obj\Debug\MoochiesDataObjects.pdb
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\bin\Debug\MoochiesEnity.dll
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\bin\Debug\MoochiesEnity.pdb
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\bin\Debug\MoochiesEnity.xml
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesDataObjects\obj\Debug\MoochiesDataObjects.vbproj.CopyComplete

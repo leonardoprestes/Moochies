@@ -1,0 +1,10 @@
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\bin\Debug\MoochiesEnity.dll
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\bin\Debug\MoochiesEnity.pdb
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\bin\Debug\MoochiesEnity.xml
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\obj\Debug\MoochiesEnitity.vbproj.AssemblyReference.cache
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\obj\Debug\MoochiesEnity.Resources.resources
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\obj\Debug\MoochiesEnitity.vbproj.GenerateResource.cache
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\obj\Debug\MoochiesEnitity.vbproj.CoreCompileInputs.cache
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\obj\Debug\MoochiesEnity.dll
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\obj\Debug\MoochiesEnity.xml
+D:\monke\ProjetosVisualStudio\Moochies\MoochiesEnity\obj\Debug\MoochiesEnity.pdb
